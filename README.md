@@ -10,4 +10,5 @@ Currently, two official plugins are available:
 ## How to run
 
 npm install
+
 npm run dev
