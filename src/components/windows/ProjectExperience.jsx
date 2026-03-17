@@ -5,7 +5,7 @@ function ProjectExperience() {
       <h2>Project Experience</h2>
 
       <h3 className="job-line">
-        <span>UX Designer & Front-end Engineer</span>
+        <span>Designer & Front-end Engineer</span>
         <span>Mar 2026</span>
         </h3>
       <p><b>nwPlus, cmd-f</b> </p>
@@ -38,7 +38,7 @@ function ProjectExperience() {
       </ul>
 
             <h3 className="job-line">
-        <span>UX Designer & Front-end Developer</span>
+        <span>Designer & Front-end Developer</span>
         <span>Oct 2025</span>
         </h3>
       <p><b>nwPlus, hackCamp</b></p>

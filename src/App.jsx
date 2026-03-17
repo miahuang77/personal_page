@@ -66,7 +66,10 @@ function App() {
       )}
 
       {openWindows.movie && selectedMovie && (
-        <Window title={selectedMovie} onClose={() => closeWindow('movie')}>
+        <Window
+          title={selectedMovie === 'movie1' ? "Mia's projects gallary" : "Mia's designs"}
+          onClose={() => closeWindow('movie')}
+        >
           <MoviePopup movieId={selectedMovie} />
         </Window>
       )}
