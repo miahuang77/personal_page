@@ -25,7 +25,6 @@ function Desktop({
 }) {
   return (
     <div className="desktop-layout">
-      <img src={cat} className="cat-gif" />
       <img src={cattwo} className="cattwo-gif" />
       <img src={hammy} className="hammy-gif" />
       <img src={seal} className="seal-gif" />
@@ -50,6 +49,7 @@ function Desktop({
 
       {/* Anime on left bottom */}
       <div className="anime-area">
+        <img src={cat} className="cat-gif" />
         <img src={animeImg} alt="Anime" className="anime-pic" />
         <button className="anime-overlay-btn" onClick={onOpenAnime} />
         </div>

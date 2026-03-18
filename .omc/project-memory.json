@@ -101,6 +101,12 @@
   },
   "hotPaths": [
     {
+      "path": "src/styles/win98.css",
+      "accessCount": 24,
+      "lastAccessed": 1773809526756,
+      "type": "directory"
+    },
+    {
       "path": "src/components/MovieFrame/MovieFrame.jsx",
       "accessCount": 6,
       "lastAccessed": 1773801712726,
@@ -119,6 +125,12 @@
       "type": "directory"
     },
     {
+      "path": "src/components/Desktop/Desktop.jsx",
+      "accessCount": 4,
+      "lastAccessed": 1773809453479,
+      "type": "file"
+    },
+    {
       "path": "src/components/MovieFrame/MovieCard.jsx",
       "accessCount": 3,
       "lastAccessed": 1773789291874,
@@ -131,15 +143,15 @@
       "type": "file"
     },
     {
-      "path": "src/styles/win98.css",
-      "accessCount": 2,
-      "lastAccessed": 1773789283442,
-      "type": "directory"
+      "path": "src/components/Window.jsx",
+      "accessCount": 1,
+      "lastAccessed": 1773809122364,
+      "type": "file"
     },
     {
-      "path": "src/components/Desktop/Desktop.jsx",
+      "path": "src/components/windows/WorkExperience.jsx",
       "accessCount": 1,
-      "lastAccessed": 1773789417662,
+      "lastAccessed": 1773809519817,
       "type": "file"
     }
   ],
