@@ -101,21 +101,33 @@
   },
   "hotPaths": [
     {
+      "path": "src/components/MovieFrame/MovieFrame.jsx",
+      "accessCount": 6,
+      "lastAccessed": 1773801712726,
+      "type": "file"
+    },
+    {
+      "path": "src/components/windows/MoviePopup.jsx",
+      "accessCount": 5,
+      "lastAccessed": 1773801933370,
+      "type": "file"
+    },
+    {
+      "path": "src",
+      "accessCount": 4,
+      "lastAccessed": 1773801499337,
+      "type": "directory"
+    },
+    {
       "path": "src/components/MovieFrame/MovieCard.jsx",
       "accessCount": 3,
       "lastAccessed": 1773789291874,
       "type": "file"
     },
     {
-      "path": "src",
+      "path": "src/App.jsx",
       "accessCount": 3,
-      "lastAccessed": 1773789414856,
-      "type": "directory"
-    },
-    {
-      "path": "src/components/MovieFrame/MovieFrame.jsx",
-      "accessCount": 3,
-      "lastAccessed": 1773789427992,
+      "lastAccessed": 1773801462150,
       "type": "file"
     },
     {
@@ -123,12 +135,6 @@
       "accessCount": 2,
       "lastAccessed": 1773789283442,
       "type": "directory"
-    },
-    {
-      "path": "src/App.jsx",
-      "accessCount": 2,
-      "lastAccessed": 1773789430704,
-      "type": "file"
     },
     {
       "path": "src/components/Desktop/Desktop.jsx",

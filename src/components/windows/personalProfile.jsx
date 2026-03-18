@@ -17,22 +17,26 @@ function PersonalProfile() {
       {/* vertical scroll */}
       <div className="profile-text-scroll">
         <p>Find her on...</p>
-        <p>LinkedIn:</p>
-        <p>GitHub:</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/mia-huang-a448a8336" target="_blank" rel="noreferrer">
+          LinkedIn
+        </a>
+        <p></p></p>
+        <p>GitHub:<a href="https://github.com/miahuang77" target="_blank" rel="noreferrer">
+          GitHub
+        </a></p>
         <br />
         <p>What she studies...</p>
-        <p>University of British Columbia - Sauder School of Business (Business & Computer Science)</p>
+        <p>UBC - Sauder School of Business (Business & Computer Science)</p>
         <p>Useless Business Student</p>
-        <p>Self-taught UX designer and front-end developer</p>
+        <p>Self-taught website designer, UI designer and front-end developer</p>
         <br />
         <p>What she does...</p>
         <p>Currently unemployed</p>
         <p>Builds silly stuff</p>
         <p>Gambles a lot</p>
-        <p>Codes (vide-coding for most of the time)</p>
         <br />
         <p>What she likes...</p>
-        <p>Cats, Dinosaurs, Marine creatures, Jazz, Travelling, Designing, Getting new plushies, Pho, Macha... and everything on this webpage!</p>
+        <p>Cats, Dinosaurs, Marine creatures, Jazz, Travelling, Designing, Getting new plushies, Pho, Macha...</p>
         <br />
         <p>What she dislikes...</p>
         <p>Birds, Going to lectures, Doing sports, Reptiles, Rainy day, Cold winter</p>

@@ -60,9 +60,9 @@ body {
 }
 .dog-gif {
   position: fixed;
-  bottom: 220px;
+  bottom: 222px;
   right: 700px;
-  width: 15s0px;
+  width: 150px;
   pointer-events: none;
 }
 
@@ -174,18 +174,20 @@ body {
 
 /*projects pop-up*/
 .second-large-window {
-  width: 700px;
-  height: 600px;
+  width: 800px;
+  height: 570px;
 }
 .job-line {
   display: flex;
   justify-content: space-between;
 }
 .project-window-content h2 {
+  font-size: 35px;
   text-align: center;
   margin-bottom: 10px;
 }
 .project-window-content h3 {
+  font-size: 25px;
   margin-left: 8px;
   margin-top: 10px;
 }
@@ -194,19 +196,21 @@ body {
   margin-bottom: 5px;
 }
 .project-window-content p {
-  margin-left: 8px;
+  margin-left: 20px;
   margin-bottom: 10px;
 }
 /* work experience pop-up */
 .third-large-window {
-  width: 600px;
-  height: 490px;
+  width: 700px;
+  height: 500px;
 }
 .work-window-content h2 {
+  font-size: 35px;
   text-align: center;
   margin-bottom: 10px;
 }
 .work-window-content h3 {
+  font-size: 25px;
   margin-left: 8px;
   margin-top: 10px;
 }
@@ -215,6 +219,7 @@ body {
   margin-bottom: 5px;
 }
 .work-window-content p {
+  font-size:20px;
   margin-left: 8px;
   margin-bottom: 10px;
 }
@@ -255,9 +260,12 @@ body {
 }
 
 .profile-window-content h2 {
-  font-size: 26px;
+  font-size: 35px;
   text-align: center;
   margin-bottom: 10px;
+}
+.profile-window-content p {
+  font-size: 20px;
 }
 
 .profile-photos-scroll {
@@ -365,16 +373,17 @@ body {
 }
 /* artists pop-up */
 .artists-window-content h2 {
+  font-size: 35px;
   text-align: center;
   margin-bottom: 10px;
 }
 .artists-window-content h3 {
+  font-size: 28px;
   margin-left: 8px;
   margin-top: 20px;
 }
-.artists-window-content ul {
-  list-style: none;
-
+.artists-window-content p {
+  font-size: 20px;
 }
 .artists-photos-scroll {
   max-width: 100%; 
@@ -490,6 +499,35 @@ body {
   aspect-ratio: 4 / 3;
   object-fit: cover;
   display: block;
+}
+
+/* movie pop-up*/
+.movie-window-content h2 {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.movie-window-content p {
+  font-size: 20px;
+}
+.movie-window-content h3 {
+  font-size: 28px;
+  text-align: left;
+  margin-bottom: 0px;
+}
+
+.moviefour-window-content h2 {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.moviefour-window-content p {
+  font-size: 20px;
+}
+.moviefour-window-content h3 {
+  font-size: 28px;
+  text-align: left;
+  margin-bottom: 0px;
 }
 
 @media (max-width: 1100px) {
