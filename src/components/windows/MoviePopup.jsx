@@ -22,7 +22,7 @@ function MoviePopup({ movieId }) {
         </p>
       <br></br>
       <h3>Hammy.OS</h3>
-                <a href="https://www.figma.com/make/dfHUfohmroiku33sNugWuB/Main-functionalities-layout?fullscreen=1&t=kRUVYITfcwLaHePZ-1&preview-route=%2Fdashboard" target="_blank" rel="noreferrer">
+                <a href="https://www.figma.com/make/dfHUfohmroiku33sNugWuB/Main-functionalities-layout?fullscreen=1&t=u6NIM2lsAzlGWQ7D-1" target="_blank" rel="noreferrer">
          Figma make
         </a>
         <p>
