@@ -14,6 +14,7 @@ body {
   background-position: center;
   width: 100vw;
   height: 100vh;
+  height: 100svh; /* iOS Safari: fits within visible viewport, above browser chrome */
   overflow: hidden;
   margin: 0;
 }
@@ -23,6 +24,7 @@ body {
   position: relative;
   width: 100vw;
   height: 100vh;
+  height: 100svh;
   overflow: hidden;
 }
 
@@ -247,9 +249,9 @@ body {
 /* cat sits above the anime image */
 .cat-gif {
   position: absolute;
-  bottom: 100%;
-  left: 10px;
-  width: 80px;
+  bottom: 93%;
+  left: 120px;
+  width: 70px;
   height: auto;
   pointer-events: none;
 }
@@ -283,7 +285,7 @@ body {
   position: fixed;
   bottom: 10px;
   left: 130px;
-  width: 200px;
+  width: clamp(80px, 14vw, 200px);
   height: auto;
   pointer-events: none;
   z-index: 5;
@@ -547,6 +549,9 @@ body {
   }
   .bottom-panels {
     grid-template-columns: minmax(0, 320px) minmax(0, 500px);
+  }
+  .seal-gif {
+    left: 110px;
   }
 }
 
