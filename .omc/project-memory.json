@@ -118,6 +118,31 @@
       ]
     }
   },
-  "hotPaths": [],
+  "hotPaths": [
+    {
+      "path": "src/styles/win98.css",
+      "accessCount": 12,
+      "lastAccessed": 1773965365726,
+      "type": "directory"
+    },
+    {
+      "path": "src/components/Desktop/Desktop.jsx",
+      "accessCount": 6,
+      "lastAccessed": 1773964989281,
+      "type": "file"
+    },
+    {
+      "path": "",
+      "accessCount": 1,
+      "lastAccessed": 1773964839642,
+      "type": "directory"
+    },
+    {
+      "path": "src",
+      "accessCount": 1,
+      "lastAccessed": 1773964842779,
+      "type": "directory"
+    }
+  ],
   "userDirectives": []
 }

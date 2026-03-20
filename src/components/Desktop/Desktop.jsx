@@ -25,10 +25,7 @@ function Desktop({
 }) {
   return (
     <div className="desktop-layout">
-      <img src={cattwo} className="cattwo-gif" />
-      <img src={hammy} className="hammy-gif" />
       <img src={seal} className="seal-gif" />
-      <img src={dog} className="dog-gif" />
 
       {/* Iconbars on the left of screen */}
       <div className="sidebar">
@@ -56,6 +53,9 @@ function Desktop({
 
       {/* Artist on middle bottom*/}
       <div className="artist-area">
+        <img src={cattwo} className="cattwo-gif" />
+        <img src={hammy} className="hammy-gif" />
+        <img src={dog} className="dog-gif" />
         <img src={artistsImg} alt="Artists" className="artist-pic" />
         <button className="artist-overlay-btn" onClick={onOpenArtists} />
         </div>
