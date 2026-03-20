@@ -1,5 +1,5 @@
 function MoviePopup({ movieId }) {
-  if (movieId === 'movie4') {
+  if (movieId === 'movie5') {
     return (
       <div>
         <div className='movie-window-content'>
@@ -33,7 +33,7 @@ function MoviePopup({ movieId }) {
       </div>
     )
   }
-  if (movieId === 'movie1') {
+  if (movieId === 'movie2') {
   return ( <div>
         <div className='moviefour-window-content'>
         <h2>Mia's Project Gallary</h2>

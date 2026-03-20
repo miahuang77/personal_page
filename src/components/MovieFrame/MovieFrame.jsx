@@ -25,7 +25,7 @@ function MovieFrame({ onMovieClick }) {
           key={movie.id}
           movieId={movie.id}
           img={movie.img}
-          onClick={['movie1', 'movie4'].includes(movie.id) ? onMovieClick : null}
+          onClick={['movie2', 'movie5'].includes(movie.id) ? onMovieClick : null}
         />
       ))}
     </div>
