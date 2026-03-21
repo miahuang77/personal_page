@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastScanned": 1773965522885,
+  "lastScanned": 1774066533404,
   "projectRoot": "/Users/huangmingyi/Documents/dev/front-end",
   "techStack": {
     "languages": [
@@ -66,7 +66,7 @@
       "path": "dist",
       "purpose": "Distribution/build output",
       "fileCount": 1,
-      "lastAccessed": 1773965522849,
+      "lastAccessed": 1774066533373,
       "keyFiles": [
         "index.html"
       ]
@@ -75,14 +75,14 @@
       "path": "public",
       "purpose": "Public files",
       "fileCount": 0,
-      "lastAccessed": 1773965522852,
+      "lastAccessed": 1774066533373,
       "keyFiles": []
     },
     "src": {
       "path": "src",
       "purpose": "Source code",
       "fileCount": 5,
-      "lastAccessed": 1773965522859,
+      "lastAccessed": 1774066533379,
       "keyFiles": [
         "App.css",
         "App.jsx",
@@ -94,7 +94,7 @@
       "path": "dist/assets",
       "purpose": "Static assets",
       "fileCount": 2,
-      "lastAccessed": 1773965522860,
+      "lastAccessed": 1774066533380,
       "keyFiles": [
         "index-DKEtMfhC.css",
         "index-DSzPX7iy.js"
@@ -104,14 +104,14 @@
       "path": "public/assets",
       "purpose": "Static assets",
       "fileCount": 0,
-      "lastAccessed": 1773965522863,
+      "lastAccessed": 1774066533380,
       "keyFiles": []
     },
     "src/components": {
       "path": "src/components",
       "purpose": "UI components",
       "fileCount": 2,
-      "lastAccessed": 1773965522864,
+      "lastAccessed": 1774066533380,
       "keyFiles": [
         "Window.jsx",
         "index.js"
@@ -121,74 +121,8 @@
   "hotPaths": [
     {
       "path": "src/styles/win98.css",
-      "accessCount": 69,
-      "lastAccessed": 1774042270426,
-      "type": "directory"
-    },
-    {
-      "path": "src/components/MovieFrame/MovieCard.jsx",
-      "accessCount": 6,
-      "lastAccessed": 1773988092256,
-      "type": "file"
-    },
-    {
-      "path": "src/components/Desktop/Desktop.jsx",
-      "accessCount": 6,
-      "lastAccessed": 1774041933508,
-      "type": "file"
-    },
-    {
-      "path": "src/App.jsx",
-      "accessCount": 4,
-      "lastAccessed": 1773981933963,
-      "type": "file"
-    },
-    {
-      "path": "src",
       "accessCount": 3,
-      "lastAccessed": 1773988089476,
-      "type": "directory"
-    },
-    {
-      "path": "src/components/MovieFrame/MovieFrame.jsx",
-      "accessCount": 2,
-      "lastAccessed": 1773980282871,
-      "type": "file"
-    },
-    {
-      "path": "src/App.css",
-      "accessCount": 2,
-      "lastAccessed": 1774040644841,
-      "type": "file"
-    },
-    {
-      "path": "src/index.css",
-      "accessCount": 2,
-      "lastAccessed": 1774040650228,
-      "type": "file"
-    },
-    {
-      "path": "src/components/windows/MoviePopup.jsx",
-      "accessCount": 1,
-      "lastAccessed": 1773965786450,
-      "type": "file"
-    },
-    {
-      "path": "",
-      "accessCount": 1,
-      "lastAccessed": 1773965797052,
-      "type": "directory"
-    },
-    {
-      "path": "src/components/Window.jsx",
-      "accessCount": 1,
-      "lastAccessed": 1773980283086,
-      "type": "file"
-    },
-    {
-      "path": "src/components/windows/artists.jsx",
-      "accessCount": 1,
-      "lastAccessed": 1774040636744,
+      "lastAccessed": 1774066599300,
       "type": "file"
     }
   ],
