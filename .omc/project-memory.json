@@ -121,8 +121,50 @@
   "hotPaths": [
     {
       "path": "src/styles/win98.css",
-      "accessCount": 3,
-      "lastAccessed": 1774066599300,
+      "accessCount": 25,
+      "lastAccessed": 1774132003321,
+      "type": "file"
+    },
+    {
+      "path": "src/components/Desktop/Desktop.jsx",
+      "accessCount": 18,
+      "lastAccessed": 1774131804525,
+      "type": "file"
+    },
+    {
+      "path": "src/components/MovieFrame/MovieFrame.jsx",
+      "accessCount": 10,
+      "lastAccessed": 1774131575722,
+      "type": "file"
+    },
+    {
+      "path": "src/App.jsx",
+      "accessCount": 9,
+      "lastAccessed": 1774131972605,
+      "type": "file"
+    },
+    {
+      "path": "src",
+      "accessCount": 1,
+      "lastAccessed": 1774130580226,
+      "type": "directory"
+    },
+    {
+      "path": "src/components/windows/anime.jsx",
+      "accessCount": 1,
+      "lastAccessed": 1774130583041,
+      "type": "file"
+    },
+    {
+      "path": "src/components/windows/MoviePopup.jsx",
+      "accessCount": 1,
+      "lastAccessed": 1774130583690,
+      "type": "file"
+    },
+    {
+      "path": "src/components/Window.jsx",
+      "accessCount": 1,
+      "lastAccessed": 1774130601086,
       "type": "file"
     }
   ],

@@ -29,6 +29,14 @@ function App() {
   const closeWindow = (name) => setOpenWindows(prev => ({ ...prev, [name]: false }))
 
   const handleMovieClick = (movieId) => {
+    if (movieId === 'movie3') {
+      openWindow('anime')
+      return
+    }
+    if (movieId === 'movie4') {
+      openWindow('artists')
+      return
+    }
     setSelectedMovie(movieId)
     openWindow('movie')
   }
@@ -39,8 +47,6 @@ function App() {
         onOpenWork={() => openWindow('work')}
         onOpenProjects={() => openWindow('projects')}
         onOpenAwards={() => openWindow('awards')}
-        onOpenAnime={() => openWindow('anime')}
-        onOpenArtists={() => openWindow('artists')}
         onOpenProfile={() => openWindow('profile')}
         onMovieClick={handleMovieClick}
       />
@@ -67,7 +73,7 @@ function App() {
 
       {openWindows.movie && selectedMovie && (
         <Window
-          title={selectedMovie === 'movie1' ? "Mia's projects gallary" : "Mia's designs"}
+          title={selectedMovie === 'movie1' ? "Mia's projects gallary" : "(☆_☆)"}
           onClose={() => closeWindow('movie')}
         >
           <MoviePopup movieId={selectedMovie} />
@@ -76,7 +82,7 @@ function App() {
 
       {openWindows.anime && (
         <Window title="(^з^)" onClose={() => closeWindow('anime')}
-        className="left-cornor-window">
+        className="right-cornor-window">
           <Anime />
         </Window>
       )}

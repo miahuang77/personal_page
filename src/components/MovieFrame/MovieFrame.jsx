@@ -1,5 +1,8 @@
 // src/components/MovieFrame/MovieFrame.jsx
 import MovieCard from './MovieCard'
+import cat from '/assets/images/cat.gif'
+import cattwo from '/assets/images/ocat.gif'
+import dog from '/assets/images/frogdog.gif'
 
 import movie1 from '/assets/images/movie1.png'
 import movie2 from '/assets/images/movie2.png'
@@ -20,12 +23,15 @@ const movies = [
 function MovieFrame({ onMovieClick }) {
   return (
     <div className="movie-frame">
+      <img src={cat} className="cat-gif" />
+      <img src={cattwo} className="cattwo-gif" />
+      <img src={dog} className="dog-gif" />
       {movies.map(movie => (
         <MovieCard
           key={movie.id}
           movieId={movie.id}
           img={movie.img}
-          onClick={['movie2', 'movie5'].includes(movie.id) ? onMovieClick : null}
+          onClick={['movie2', 'movie3', 'movie4', 'movie5'].includes(movie.id) ? onMovieClick : null}
         />
       ))}
     </div>

@@ -40,7 +40,7 @@ body {
   position: relative;
   
   overflow-y: auto;
-  overflow-x: hidden;
+  overflow-x: auto;
 
   display: grid;
   grid-template-columns: 120px minmax(0, 410px) minmax(0, 900px);
@@ -93,6 +93,7 @@ body {
   grid-area: profile;
   position: relative;        /* anchors the overlay button */
   align-self: start;
+  margin-top: 40px;
   width: 100%;
   z-index: 10;
 }
@@ -116,6 +117,7 @@ body {
   grid-area: movie;
   position: relative;
   align-self: start;
+  margin-top: 100px;
 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -131,7 +133,7 @@ body {
 
   width: 100%;
   height: auto;
-  overflow: hidden;
+  overflow: visible;
 }
 .movie-frame::before {
   content: "(ｰ ｰ;)";
@@ -148,7 +150,7 @@ body {
   font-size: 14px;
 }
 .movie-frame::after {
-  content: "> _ <";
+  content: "ಠ_ಠ";
   position: absolute;
   top: 5px;
   right: 6px;
@@ -188,110 +190,58 @@ body {
   display: block;
 }
 
-/* ===== BOTTOM PANELS (spans both content columns) ===== */
-/* Sub-grid mirrors main columns so anime aligns under profile,
-   artist aligns under the movie frame. */
-.bottom-panels {
-  grid-area: btm;
-  display: grid;
-  grid-template-columns: 380px 1fr;
-  align-items: start;
-}
 
-/* ===== ANIME AREA ===== */
-.anime-area {
-  position: fixed;
-  bottom: 0px;
-  right: 20px;
-  width: 250px;
-  z-index: 10;
-}
-.anime-pic {
-  width: 100%;
-  display: block;
-}
-.anime-overlay-btn {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 85%;
-  height: 85%;
-  background: transparent;
-  border: none;
-  cursor: pointer;
-}
-
-/* ===== ARTIST AREA ===== */
-.artist-area {
-  position: relative;        /* anchors cattwo/hammy/dog gifs */
-  grid-column: 2;            /* stay in right column even though anime-area is fixed */
-  align-self: start;
-  width: 100%;
-  max-width: 490px;
-  margin-left: 10px;
-}
-.artist-pic {
-  width: 100%;
-  display: block;
-}
-.artist-overlay-btn {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 90%;
-  height: 150px;
-  background: transparent;
-  border: none;
-  cursor: pointer;
-}
 
 /* ===== DECORATIVE GIFS ===== */
-/* cat sits above the anime image */
+/* cat sits at the left corner of the portfolio frame */
 .cat-gif {
   position: absolute;
-  bottom: 93%;
-  left: 120px;
+  bottom: 4px;
+  left: 4px;
   width: 70px;
   height: auto;
   pointer-events: none;
+  z-index: 5;
 }
 /* cattwo/hammy/dog sit above the artist image */
 .cattwo-gif {
   position: absolute;
-  bottom: calc(100% - 10px);
+  top: 0;
   right: 0;
+  transform: translateY(-80%);
   width: 100px;
   height: auto;
   pointer-events: none;
+  z-index: 5;
 }
 .hammy-gif {
   position: absolute;
-  bottom: 100%;
-  left: 50%;                  /* was hardcoded 264px */
+  bottom: 60px;
+  right: 0;
   width: 80px;
   height: auto;
   pointer-events: none;
+  z-index: 6;
 }
 .dog-gif {
   position: absolute;
-  bottom: calc(100% - 10px);
-  left: 10%;
+  bottom: 12px;
+  right: 12px;
   width: 150px;
   height: auto;
   pointer-events: none;
+  z-index: 5;
 }
-/* seal floats in the gap between anime and artist in the bottom row */
+/* seal sits at the left corner of the profile frame */
 .seal-gif {
-  position: fixed;
-  bottom: 10px;
-  left: 130px;
-  width: clamp(80px, 14vw, 200px);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: clamp(80px, 14vw, 160px);
   height: auto;
   pointer-events: none;
   z-index: 5;
-  transform: translateZ(0);  /* force own compositing layer — fixes paused GIFs in some browsers */
+  transform: translateZ(0);
 }
 
 /* ===== WIN98 POPUP WINDOWS ===== */
@@ -378,6 +328,17 @@ body {
   left: 20px;
   bottom: 20px;
   top: auto;
+  transform: none;
+  width: min(450px, 95vw);
+  height: min(320px, 90vh);
+}
+/* anime popup — pinned top-right */
+.right-cornor-window {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  left: auto;
+  bottom: auto;
   transform: none;
   width: min(450px, 95vw);
   height: min(320px, 90vh);
