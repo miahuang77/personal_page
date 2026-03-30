@@ -47,7 +47,7 @@ function MoviePopup({ movieId }) {
         <br></br>
 
         <h3>FocusAurus</h3>
-                <a href="https://github.com/miahuang77/FocusAurus://github.com/miahuang77/PantryChef" target="_blank" rel="noreferrer">
+                <a href="https://github.com/miahuang77/FocusAurus" target="_blank" rel="noreferrer">
           GitHub
         </a>
         <p>
@@ -58,6 +58,14 @@ function MoviePopup({ movieId }) {
          <h3>Mia's World (personal page)</h3>
                 <p>this website!</p>
       
+        <br></br>
+        <h3>Life2Cut</h3>
+                <a href="https://github.com/miahuang77/Life2Cut" target="_blank" rel="noreferrer">
+          GitHub
+        </a>
+        <p>
+         Photo booth with cute frame. Got inspiration from youtube.
+        </p>
         <br></br>
         </div>
         </div>
